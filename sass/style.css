@@ -467,7 +467,7 @@ footer .footer_boxs .footer_box:nth-child(4) .footer_box_inp button {
     margin-top: 20px;
   }
   article .article_many .article_boxs .article_box p {
-    font-size: 10px;
+    font-size: 13px;
     color: #000;
     opacity: 0.6;
     margin-bottom: 5px;
@@ -477,10 +477,10 @@ footer .footer_boxs .footer_box:nth-child(4) .footer_box_inp button {
   }
   article .article_many .article_boxs .article_box .article_person span {
     color: #000;
-    font-size: 10px;
+    font-size: 13px;
   }
   article .article_many .article_boxs .article_box .article_location {
-    gap: 40px;
+    gap: 50px;
   }
   article .article_many .article_boxs .article_box .article_location .article_local_left {
     gap: 5px;
@@ -509,26 +509,23 @@ footer .footer_boxs .footer_box:nth-child(4) .footer_box_inp button {
     gap: 20px;
   }
   article .article_many .article_footer img {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
   }
   article .article_many .article_footer .article_footer_bg {
     gap: 1.5px;
   }
   article .article_many .article_footer .article_footer_bg .article_bg {
-    width: 35px;
-    height: 3px;
+    width: 45px;
+    height: 5px;
     border-radius: 10px;
     background: rgba(201, 69, 59, 0.1019607843);
   }
   article .article_many .article_footer .article_footer_bg .article_bg:nth-child(2) {
-    width: 35px;
-    height: 3px;
+    width: 45px;
+    height: 5px;
     background: #C9453B;
     border-radius: 10px;
-  }
-  main {
-    display: none;
   }
   footer {
     display: none;
