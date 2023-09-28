@@ -1742,7 +1742,7 @@ footer {
     }
 };
 
-@media (min-width: 1201px) {
+@media (max-width: 1201px) {
     header {
         width: 100%;
         background-image: url(../images/header_bg_img.png);
@@ -2038,8 +2038,9 @@ footer {
         }
     }
     footer {
+        display: none;
         margin-top: 60px;
-        padding: 0 20px;
+        padding: 0;
         background: #2694990A;
         width: 100%;
         .container {
@@ -2103,7 +2104,7 @@ footer {
                 }
                 
             }  
-        }
+        }   
     }
 }
 
