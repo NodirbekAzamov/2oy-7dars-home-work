@@ -454,12 +454,13 @@ footer {
             }
             .footer_box_inp {
                 @extend %center_element;
-                gap: 35px;
+                gap: 30px;
                 margin-top: 42px;
 
                 input {
                     padding: 10px 20px;
                     border: 1px solid silver;
+                    width: 150px;
                 }
                 button {
                     @extend %glabal_element3;
@@ -619,10 +620,163 @@ footer {
         }
     }
     main {
-        
-    }
+        padding: 0;
+        margin-top: 30px;
+        .container {
+            padding: 0;
+        }
 
+        .main_many {
+            padding: 0 20px;
+            .main_footer {
+                width: 100%;
+                h3 {
+                    font-size: 25px;
+                    text-align: center
+                }
+                p {
+                    font-size: 15px;
+                    margin-top: 0px;
+                }
+            };
+
+            .main_boxs {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 32px;
+                margin-top: 25px;
+                height: 100%;
+                
+                .main_boxs_left {
+                    width: 100%;
+                    img {
+                        width: 90%;
+                        
+                    }
+                    h6 {
+                        margin-top: 10px;
+                        color: #000;
+                        font-size: 20px;
+                    }
+                    p {
+                        margin: 8px 0;
+                        opacity: 0.6;
+                        text-align: start;
+                        font-size: 13px;
+                    }
+                    a {
+                        padding-top: 0px;
+                        font-size: 13px;
+                    }
+                }
+                .main_boxs_right {
+                    gap: 20px;
+                    .main_box {
+                        gap: 15px;
+    
+                        .main_box_left {
+                            width: 50%;
+                            img {
+                                width: 100%;
+                            }
+                        }
+                        .main_box_right {
+                            width: 50%;
+                        }
+                        h6 {
+                            font-size: 13px;
+                            margin-bottom: 5px;
+                        }
+                        p {
+                            text-align: start;
+                            opacity: 0.6;
+                            margin-bottom: 5px;
+                            font-size: 12px;
+                        }
+                        a {
+                            opacity: 0.8;
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
     footer {
-        display: none;
+        width: 100%;
+        margin-top: 50px;
+        padding: 0 10px;
+        .container {
+            padding: 0;
+        }
+        .footer_boxs {
+            display: flex;
+            align-items: start;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            gap: 20px;
+            .footer_box:nth-child(1) {
+                margin-right: 30px;
+            }
+
+            .footer_box2 {
+                @extend %center_element;
+                flex-direction: column;
+                align-items: start;
+                gap: 8px;
+                p {
+                    font-size: 15px;
+                }
+            }
+                
+            .footer_box:nth-child(1) {
+                h5 {
+                    font-size: 20px;
+                    color: #000;
+                    margin-bottom: 10px;
+                }
+                p {
+                    font-size: 15px;
+                    color: #000;
+                    letter-spacing: 0.96px;
+                    margin-bottom: 10px;
+                }
+                a {
+                    @extend %glabal_element3;
+                    color: #000;
+                    letter-spacing: 0.96px;
+                }
+                .footer_icon {
+                    margin-top: 20px;
+                    justify-content: start;
+                    gap: 15px;
+                }
+            }
+            .footer_box:nth-child(4) {
+                margin-top: 15px;
+                h5 {
+                    font-size: 20px;
+                }
+                .footer_box_inp {
+                    @extend %center_element;
+                    gap: 20px;
+                    margin-top: 22px;
+    
+                    input {
+                        padding: 6px 10px;
+                        border: 1px solid silver;
+                    }
+                    button {
+                        @extend %glabal_element3;
+                        padding: 5px 16px;
+                        border-radius: 5px;
+                        background: #C9453B;
+                        letter-spacing: 0.96px;
+                        border: none;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
     }
 }
